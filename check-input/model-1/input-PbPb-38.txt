@@ -1,0 +1,37 @@
+
+# specify the projectile option twice
+projectile = Pb
+projectile = Pb
+number-events = 10000
+
+# don't print event properties to stdout, save to HDF5
+quiet = true
+output = PbPb38.hdf5
+
+reduced-thickness = 0.0
+
+# 1.4 at LHC; > 3.0 at RHIC (The larger this parameter, the smaller the fluctuation)
+fluctuation = 3.126614
+
+# 0.43 at LHC; ~0.5 at RHIC
+nucleon-width = 0.45
+
+# 3.98 at 200 GeV; 6.4 at 2.76 TeV; 7.0 at 5.02 TeV
+cross-section = 6.4
+
+normalization = 9.344626
+
+rapidity-mean = 0.001511
+rapidity-width = 2.837559
+rapidity-skew = 1.218300
+rapidity-kurtosis = 0.0
+skew-schemes = 1
+
+<pt2/mt2> = 0.605652
+
+grid-max = 10
+grid-step = 0.2
+eta-max = 12.0
+eta-step = 64
+switch-3d = 1
+out-3d = 0

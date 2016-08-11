@@ -1,0 +1,23 @@
+
+projectile = p
+projectile = Pb
+number-events = 10000
+quiet = true
+output = pPb81.hdf5
+reduced-thickness = 0.0
+fluctuation = 2.785189
+nucleon-width = 0.45
+cross-section = 7.0
+normalization = 10.911773
+rapidity-mean = 0.644834
+rapidity-width = 2.818406
+rapidity-skew = 0.411551
+rapidity-kurtosis = 0.0
+skew-schemes = 1
+<pt2/mt2> = 0.708892
+grid-max = 5
+grid-step = 0.1
+eta-max = 12.0
+eta-step = 64
+switch-3d = 1
+out-3d = 0
